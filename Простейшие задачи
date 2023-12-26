@@ -15,3 +15,28 @@ x = 12345
 b = 4 ** 5
 z = (b * 3)/(1-2)
 print(z)
+
+3)
+
+x = int(input())
+if (x < 0) and (x % 2) == 0:
+    print("Отрицательное чётное число")
+elif x == 0:
+    print("Нулевое число")
+else:
+    if (x > 0) and (x % 2) != 0:
+        print("Положительное нечётное число")
+
+4)
+
+
+mike = int(input())
+ivan = int(input())
+cash = int(input())
+if mike and ivan >= cash:
+    print(2)
+elif mike >= cash or ivan >= cash:
+    print(-1)
+else:
+    if (mike <= cash) and (ivan <= cash):
+        print(0)
