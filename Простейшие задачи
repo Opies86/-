@@ -40,3 +40,24 @@ elif mike >= cash or ivan >= cash:
 else:
     if (mike <= cash) and (ivan <= cash):
         print(0)
+
+
+5) Уволить сотрудников компании с чётными зарплатами
+
+x = int(input())
+for i in range(x):
+    z = int(input())
+    if z % 2 == 0:
+        print(i + 1, "Уволен")
+
+
+6)
+
+
+n = int(input())
+count = 0
+for i in range(n):
+    x = int(input())
+    if x == 0:
+        count += 1
+        print("Количество нулей:", count)
