@@ -1,5 +1,5 @@
-
-
+1)
+Условие:
 x, b = map(int, input().split())
 s = x * b
 print(s)
@@ -9,15 +9,15 @@ y = float(input())
 p = (z + z + y + y)
 print(p)
 
-
-
+2)
+Условие:
 x = 12345
 b = 4 ** 5
 z = (b * 3)/(1-2)
 print(z)
 
-
-
+3)
+Условие:
 x = int(input())
 if (x < 0) and (x % 2) == 0:
     print("Отрицательное чётное число")
@@ -28,8 +28,8 @@ else:
         print("Положительное нечётное число")
 
 
-
-
+4)
+Условие:
 mike = int(input())
 ivan = int(input())
 cash = int(input())
@@ -42,8 +42,8 @@ else:
         print(0)
 
 
-
-
+5)
+Условие:
 x = int(input())
 for i in range(x):
     z = int(input())
@@ -52,8 +52,8 @@ for i in range(x):
 
 
 
-
-
+6)
+Условие:
 n = int(input())
 count = 0
 for i in range(n):
@@ -61,3 +61,33 @@ for i in range(n):
     if x == 0:
         count += 1
         print("Количество нулей:", count)
+
+
+
+7)
+Условие:
+n = int(input())
+res = []
+for i in range(n):
+    a = int(input())
+    res.append(a)
+    if a > 10000:
+        print("Ошибка")
+print(list(reversed(res)))
+
+
+
+
+8)
+Условие:
+a = set(input().split())
+b = set(input().split())
+print(len(a.intersection(b)))
+
+
+9)
+Условие:
+n = int(input())
+s = list(map(int, input().split()))
+e = set(s)
+print(len(e))
